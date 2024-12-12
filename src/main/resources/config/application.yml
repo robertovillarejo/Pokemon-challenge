@@ -1,0 +1,8 @@
+logging:
+  level:
+    mx:
+      com:
+        bankaya: INFO
+spring:
+  application:
+    name: Challenge

@@ -1,0 +1,9 @@
+logging:
+  config: classpath:logback.xml
+  level:
+    mx:
+      com:
+        bankaya: 'OFF'
+spring:
+  main:
+    banner-mode: 'off'
