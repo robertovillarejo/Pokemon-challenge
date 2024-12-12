@@ -55,5 +55,6 @@ docker compose -f src/main/docker/mysql.yml up -d
 - [Cucumber authentication](documentation/cucumber-authentication.md)
 - [Kipe authorization](documentation/kipe-authorization.md)
 - [Kipe expression](documentation/kipe-expression.md)
+- [Sample](documentation/sample.md)
 
 <!-- jhipster-needle-documentation -->
