@@ -74,6 +74,7 @@ class SecurityConfiguration {
         .requestMatchers(antMatcher("/swagger-ui.html")).permitAll()
         .requestMatchers(antMatcher("/v3/api-docs/**")).permitAll()
         .requestMatchers(antMatcher("/test/**")).permitAll()
+        .requestMatchers(antMatcher("/ws/**")).permitAll()
         .requestMatchers(new MvcRequestMatcher(introspector, "/api/authenticate")).permitAll()
         .requestMatchers(new MvcRequestMatcher(introspector, "/api/register")).permitAll()
         .requestMatchers(new MvcRequestMatcher(introspector, "/api/activate")).permitAll()
