@@ -16,3 +16,6 @@ spring:
     username: challenge
 server:
   port: 0
+application:
+  security:
+    jwt-base64-secret: NTZjOTdlOWIxMWY3ODg2MTdhYzNmMDNhZDkwOGVmNGYyMTQxZGE3MWM1MTBiOWFjNDU4Yzc5ZDU1NTQ5ZGY4Ng==

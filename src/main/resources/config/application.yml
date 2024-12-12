@@ -50,5 +50,7 @@ application:
     ehcache:
       max-entries: 100
       time-to-live-seconds: 3600
+  security:
+    jwt-base64-secret: YTg4OTU4ZGFjODk3Y2ZiNjdhOWY5YzZlOTA2Y2M5MGEzYmZmOTY2YjVkMTIwZmY4ZTFlNWQwMDdlOWUwYTJmOQ==
 server:
   port: 8080
