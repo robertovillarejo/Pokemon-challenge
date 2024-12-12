@@ -35,5 +35,17 @@
       "indentSize" : 2,
       "springConfigurationFormat" : "yaml"
     }
+  }, {
+    "module" : "prettier",
+    "date" : "2024-12-12T18:07:56.632203852Z",
+    "properties" : {
+      "packageName" : "mx.com.bankaya",
+      "projectName" : "PokeAPI Challenge",
+      "baseName" : "challenge",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "springConfigurationFormat" : "yaml"
+    }
   } ]
 }
