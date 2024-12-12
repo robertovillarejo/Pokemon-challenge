@@ -299,5 +299,17 @@
       "indentSize" : 2,
       "springConfigurationFormat" : "yaml"
     }
+  }, {
+    "module" : "kipe-authorization",
+    "date" : "2024-12-12T18:11:53.003284427Z",
+    "properties" : {
+      "packageName" : "mx.com.bankaya",
+      "projectName" : "PokeAPI Challenge",
+      "baseName" : "challenge",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "springConfigurationFormat" : "yaml"
+    }
   } ]
 }
