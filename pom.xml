@@ -74,6 +74,14 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-validation</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
@@ -81,6 +89,12 @@
       <groupId>org.testcontainers</groupId>
       <artifactId>mysql</artifactId>
       <version>${testcontainers.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+      <version>${reflections.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -106,6 +120,7 @@
     <spring-boot.version>3.4.0</spring-boot.version>
     <testcontainers.version>1.20.4</testcontainers.version>
     <liquibase.version>4.30.0</liquibase.version>
+    <reflections.version>0.10.2</reflections.version>
   </properties>
 
   <build>

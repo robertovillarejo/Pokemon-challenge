@@ -43,8 +43,12 @@ spring:
           use_second_level_cache: true
   liquibase:
     change-log: classpath:config/liquibase/master.xml
+  jackson:
+    default-property-inclusion: non_absent
 application:
   cache:
     ehcache:
       max-entries: 100
       time-to-live-seconds: 3600
+server:
+  port: 8080

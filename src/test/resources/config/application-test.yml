@@ -14,3 +14,5 @@ spring:
     password: ''
     url: jdbc:tc:mysql:9.1.0:///challenge
     username: challenge
+server:
+  port: 0
