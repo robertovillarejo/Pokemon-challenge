@@ -54,3 +54,9 @@ application:
     jwt-base64-secret: YTg4OTU4ZGFjODk3Y2ZiNjdhOWY5YzZlOTA2Y2M5MGEzYmZmOTY2YjVkMTIwZmY4ZTFlNWQwMDdlOWUwYTJmOQ==
 server:
   port: 8080
+springdoc:
+  enable-native-support: true
+  swagger-ui:
+    operationsSorter: alpha
+    tagsSorter: alpha
+    tryItOutEnabled: true
