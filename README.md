@@ -47,5 +47,6 @@ docker compose -f src/main/docker/mysql.yml up -d
 - [Assertions](documentation/assertions.md)
 - [sonar](documentation/sonar.md)
 - [MySQL](documentation/mysql.md)
+- [Logs Spy](documentation/logs-spy.md)
 
 <!-- jhipster-needle-documentation -->
