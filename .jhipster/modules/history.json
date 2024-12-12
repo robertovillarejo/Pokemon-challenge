@@ -215,5 +215,17 @@
       "indentSize" : 2,
       "springConfigurationFormat" : "yaml"
     }
+  }, {
+    "module" : "liquibase",
+    "date" : "2024-12-12T18:07:58.457343833Z",
+    "properties" : {
+      "packageName" : "mx.com.bankaya",
+      "projectName" : "PokeAPI Challenge",
+      "baseName" : "challenge",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "springConfigurationFormat" : "yaml"
+    }
   } ]
 }

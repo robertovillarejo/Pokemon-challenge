@@ -41,6 +41,8 @@ spring:
           in_clause_parameter_padding: true
         cache:
           use_second_level_cache: true
+  liquibase:
+    change-log: classpath:config/liquibase/master.xml
 application:
   cache:
     ehcache:
