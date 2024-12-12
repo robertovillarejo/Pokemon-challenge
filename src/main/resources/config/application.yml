@@ -39,6 +39,8 @@ spring:
         query:
           fail_on_pagination_over_collection_fetch: true
           in_clause_parameter_padding: true
+        cache:
+          use_second_level_cache: true
 application:
   cache:
     ehcache:
